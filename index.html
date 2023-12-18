@@ -12,6 +12,12 @@
 
     <script>
         function ok(){
+            playsounds(audioName){
+                let audio = new audio(audioName);
+                audio.loop= "true";
+                play.audio();
+            }
+            playsounds("seasons.mp3");
         alert('PASTI BARU BANGUN YAHAHA!!');
         alert('AYOO SEMANGAT!!');
         alert('BENTAR LAGI LEGEND!!');
